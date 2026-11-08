@@ -70,36 +70,36 @@ IND_JWT_URL = (
 REGION_ACCOUNTS = {
     "IND": [
         {
-            "uid": os.getenv("IND_UID_1", "8404590855"),
-            "password": os.getenv("IND_PASS_1", "rosyy_E5CR_rosyy_B0UI"),
+            "uid": os.getenv("IND_UID_1", "8409181907"),
+            "password": os.getenv("IND_PASS_1", "Zaraa_XG9J_rosyy_Q56Q"),
         },
         {
-            "uid": os.getenv("IND_UID_2", "8404374035"),
-            "password": os.getenv("IND_PASS_2", "rosyy_KB2D_rosyy_54UW"),
+            "uid": os.getenv("IND_UID_2", "8409176403"),
+            "password": os.getenv("IND_PASS_2", "Candyy_91X6_rosyy_0B70"),
         },
         {
-            "uid": os.getenv("IND_UID_3", "8409096935"),
-            "password": os.getenv("IND_PASS_3", "shivan_MHLN_rosyy_JMZT"),
+            "uid": os.getenv("IND_UID_3", "8409169856"),
+            "password": os.getenv("IND_PASS_3", "Diva_ZPV5_rosyy_GE59"),
         },
         {
-            "uid": os.getenv("IND_UID_4", "8400135142"),
-            "password": os.getenv("IND_PASS_4", "rosyy_9HKW_JIDDI_3IWI"),
+            "uid": os.getenv("IND_UID_4", "8409166513"),
+            "password": os.getenv("IND_PASS_4", "Doll_VT5B_rosyy_A560"),
         },
         {
-            "uid": os.getenv("IND_UID_5", "8400144742"),
-            "password": os.getenv("IND_PASS_5", "rosyy_VQJ1_JIDDI_ZYL1"),
+            "uid": os.getenv("IND_UID_5", "8409158259"),
+            "password": os.getenv("IND_PASS_5", "aasmaa_TVBY_rosyy_8M0V"),
         },
         {
-            "uid": os.getenv("IND_UID_6", "8404290539"),
-            "password": os.getenv("IND_PASS_6", "rosyy_RS9Z_rosyy_GUAA"),
+            "uid": os.getenv("IND_UID_6", "8408939718"),
+            "password": os.getenv("IND_PASS_6", "rosyy_KF5E_rosyy_R8G6"),
+        }, 
+        {
+            "uid": os.getenv("IND_UID_7", "8409182382"),
+            "password": os.getenv("IND_PASS_7", "Zaraa_UZS1_rosyy_KI3W"),
         },
         {
-            "uid": os.getenv("IND_UID_7", "8408869684"),
-            "password": os.getenv("IND_PASS_7", "chikuu_I0T3_rosyy_8N89"),
-        },
-        {
-            "uid": os.getenv("IND_UID_8", "8407725815"),
-            "password": os.getenv("IND_PASS_8", "rosyy_Q18A_rosyy_ASGQ"),
+            "uid": os.getenv("IND_UID_8", "8409182638"),
+            "password": os.getenv("IND_PASS_8", "Zaraa_WDS6_rosyy_CIFM"),
         },
     ],
     "OTHARS_SVR": [
