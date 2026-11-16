@@ -64,123 +64,195 @@ IND_JWT_URL = (
 
 
 # ============================================================
-# Multi-Server Credentials Pools (112 IND Accounts + Othars)
+# Multi-Server Credentials Pools (46 Accounts)
 # ============================================================
 
 REGION_ACCOUNTS = {
     "IND": [
-        {"uid": "8438227726", "password": "Mimii3DB4LL77QJUP49TQHFHJ3RSUQW"},
-        {"uid": "8438227817", "password": "Mimii1IDJUKWFH4Y3A1RBZLWETPWD0C"},
-        {"uid": "8438227913", "password": "MimiiM79UF1L90WPSPV440P387U2Q2T"},
-        {"uid": "8438228212", "password": "MimiiHUCE1JLHLMRXEACQVIZYJUELPA"},
-        {"uid": "8438228037", "password": "Mimii7ZHYEAAKMAUKEOR02MFA9FF3HR"},
-        {"uid": "8438227574", "password": "MimiiQK1R3GZSZ9YX2XILMYE2I7V0GM"},
-        {"uid": "8438228391", "password": "MimiiYP8138G49CV46U97U8JH9V5BMG"},
-        {"uid": "8438234762", "password": "MimiiIO46PINKIOBDGFNVR1978DMBGG"},
-        {"uid": "8438234680", "password": "MimiiX6A046O9VBO01UAEOMGPQ4M07J"},
-        {"uid": "8438234805", "password": "MimiiRKKJBAG8Q11FTC0R7KYR8GA8G1"},
-        {"uid": "8438234924", "password": "MimiiNDLZEID8MZ5P3TO3HNGQA6ELRN"},
-        {"uid": "8438234866", "password": "MimiiX09ZS7301WCS63MXXIQGJU7DBQ"},
-        {"uid": "8438234975", "password": "MimiiXIMKKOTDZFH4UQNC5ABAGISNZR"},
-        {"uid": "8438234859", "password": "Mimii0I6HDJUXWSXDU2K8PDLPUCX1YG"},
-        {"uid": "8438235001", "password": "MimiiA34LVA246ZO8MHAQT8PMU5KOL2"},
-        {"uid": "8438234930", "password": "MimiiNV1G1DBZHRFXRLRSMYDNSJ858E"},
-        {"uid": "8438235050", "password": "Mimii2VNSCBMVTQEFJFBYZ5C7A7PZJZ"},
-        {"uid": "8438241545", "password": "MimiiRWAD7OQA5SJKO057FPYL519FHZ"},
-        {"uid": "8438241561", "password": "MimiiZNUBNLB2KH5UG2GHUJTXWK74XC"},
-        {"uid": "8438241666", "password": "MimiiICFNSTX3NPDFT2JECEWNECZMSG"},
-        {"uid": "8438241702", "password": "MimiiZPKYH7C6IUAIET4DBNEQUDYVRI"},
-        {"uid": "8438241739", "password": "Mimii8LU1Q2ZSSS9HCLCJA2LOQHQNMY"},
-        {"uid": "8438241728", "password": "MimiiMZJ5G6H29GQEOOO6RUCOM2O7EN"},
-        {"uid": "8438241703", "password": "MimiiS1Q43DZDH4RY1T1C3ZG3PU5GYF"},
-        {"uid": "8438241731", "password": "MimiiZJ4T5DTLVNOWWGN46ETMMYAST4"},
-        {"uid": "8438249454", "password": "MimiiET3WP48P4UCTX2GJK11XDFQMG7"},
-        {"uid": "8438249417", "password": "MimiiR0JM2D2I2RMAW4R69E4A89WYVE"},
-        {"uid": "8438249490", "password": "MimiiTSBZD8YPE034D6LL9W3ZOKO9V5"},
-        {"uid": "8438249481", "password": "MimiiFSYTK9DQB3I03IL1YBKJ1KPDQ1"},
-        {"uid": "8438249342", "password": "MimiiPZ4S3WE677LNM0TN6NCB4A3QRV"},
-        {"uid": "8438254267", "password": "MimiiFT1S5QB0C0TDW430PT7EESKH6O"},
-        {"uid": "8438254132", "password": "MimiiDUGIUJ87F5CXBKNC2G9L8G0M9J"},
-        {"uid": "8438254291", "password": "MimiiVHPQDK2JXMPZDGJXUYUETSK3NL"},
-        {"uid": "8438254365", "password": "MimiiLX8S8TO73RA22C9NHQKS34ZFNL"},
-        {"uid": "8438254407", "password": "MimiiXSKO3IB80KY0FX25FEJSG4EU8S"},
-        {"uid": "8438254450", "password": "MimiiJF56GDZ96PEKLU1N917CYYIPZY"},
-        {"uid": "8438254364", "password": "MimiiP51I6PJ4SMWMMTVB092EQZAU2J"},
-        {"uid": "8438254419", "password": "MimiiLTRYF1E982NJ8EQ0ULOM6O98GG"},
-        {"uid": "8438262148", "password": "MimiiLRVPNNHMHEGQL8XFH29G9H2LHP"},
-        {"uid": "8438262021", "password": "MimiiWJQFA4LX3Q6GO0RAJKH9ACD2BR"},
-        {"uid": "8438262325", "password": "MimiiU2TWDM07E9NYLKY4TCB0XG27BN"},
-        {"uid": "8438262206", "password": "MimiiQXTXCDMQ7GA1F005GBO3FV0K4F"},
-        {"uid": "8438261998", "password": "MimiiCHF59ESHP59RFBC8C5UB9BS73D"},
-        {"uid": "8438262337", "password": "Mimii46DEHEQ82DM1I9STVV5DB3YCEI"},
-        {"uid": "8438262364", "password": "Mimii75ELD6HSBA26XPLP00P5YYOEAU"},
-        {"uid": "8438298563", "password": "Mimii2I652FFO2TD10VKY8OT4V0FYPZ"},
-        {"uid": "8438298548", "password": "Mimii0JNJJUDV6SPYH67YUJTS1OPT2N"},
-        {"uid": "8438298552", "password": "MimiiXZJ7WTWT2UD2D5ADEWXE9KLXI4"},
-        {"uid": "8438298561", "password": "Mimii1GE53POYHWD8D7EZQUTP82TWQ9"},
-        {"uid": "8438298550", "password": "Mimii9A8K5YMR215672FEZDWEMI42TX"},
-        {"uid": "8438298564", "password": "MimiiWH5CFU81TINRJ6LE0A2UR3VX4B"},
-        {"uid": "8438298557", "password": "MimiiD6LIUG296HD2QX3UCN6TCPW7N9"},
-        {"uid": "8438298562", "password": "MimiiQUC1V0K8CKR6NHAURVC0W5PV7E"},
-        {"uid": "8438298560", "password": "MimiiIKGOEZCSRBAJE6K1VET6BSZF7N"},
-        {"uid": "8438300981", "password": "Mimii7FB8CU8ELQXKNSHV2XRKA5AEO2"},
-        {"uid": "8438300832", "password": "MimiiXJFX4GFK4ECR01NKK91YOG0AGW"},
-        {"uid": "8438303434", "password": "MimiiS0TW7GEQW8I6G1B6X7VMOIBSQ5"},
-        {"uid": "8438303424", "password": "MimiiH5MWO8DZE7SLS75AV23OQ3AVLO"},
-        {"uid": "8438303437", "password": "MimiiVOW9U1M5MTN82VGFBWW8WM4MW4"},
-        {"uid": "8438303465", "password": "Mimii1VPQC4H5VD2YDOT9H9S1CCPSRP"},
-        {"uid": "8438303472", "password": "MimiiWORRMZXJPD6NL49PB2B97CF8P6"},
-        {"uid": "8438303446", "password": "Mimii458XA13TSGJ3IGSWF4KRHCXXVI"},
-        {"uid": "8438304485", "password": "MimiiX83V8ODMP61WEYJ1Q5WY3O6UCV"},
-        {"uid": "8438304489", "password": "MimiiEEWL1SAO6NVH7VJ7Y7NPRGZYCH"},
-        {"uid": "8438304486", "password": "MimiiSJFOG19809M0XZ5GGGPE9IZZP7"},
-        {"uid": "8438304490", "password": "MimiiCB72XG519R0MYVIGU3IWU1BSOS"},
-        {"uid": "8438304492", "password": "MimiiFAU9298N3WG4AQJZXGF3M6L9CV"},
-        {"uid": "8438304488", "password": "Mimii2BQ4IPVJ1AS9YP7QKRF6ICRK7B"},
-        {"uid": "8438304487", "password": "MimiiHHKGIFOZJYJ1LTQ75ZWGW17LFH"},
-        {"uid": "8438305533", "password": "MimiiHS8BC4E619CE4W8AJ1LOQQ870B"},
-        {"uid": "8438305560", "password": "MimiiGEHXKQEVFA31S52MGHPZT1RVT3"},
-        {"uid": "8438305557", "password": "Mimii6DDOIL1YAZ5DUWX9G6F20UBCZJ"},
-        {"uid": "8438305551", "password": "MimiiZLQYHVE6NOBKORHZQ0S0TKU7QQ"},
-        {"uid": "8438305599", "password": "Mimii35YPSYAXEQU0QYQTWH2WZDXS5T"},
-        {"uid": "8438305604", "password": "Mimii2TA9YPLLMOW57S14DRGZ2868CA"},
-        {"uid": "8438305575", "password": "Mimii13UPGHEYS74HKWQCIVFPRHEB1N"},
-        {"uid": "8438308070", "password": "MimiiUBVZTHJROR5E3GXOI4OTBK2POJ"},
-        {"uid": "8438308066", "password": "MimiiG3NF84THVR5TZCUOHRND46DG0C"},
-        {"uid": "8438308072", "password": "MimiiB54E07KSHQR3D7KCID0RNNEFHV"},
-        {"uid": "8438308073", "password": "Mimii3DAHGTIIXX146LWKCB8ZAB5EZ7"},
-        {"uid": "8438308068", "password": "MimiiIQGBUMZ8PPWCJNUMM46JYWBE0W"},
-        {"uid": "8438308069", "password": "Mimii8Z55YNC7WPOO5LMDZFV6SXHC4N"},
-        {"uid": "8438308067", "password": "MimiiU8FHA11M9ROGJ8SPHPZ7RP4MCM"},
-        {"uid": "8438308071", "password": "MimiiHK54YX2H6US15BYWB828NBUH64"},
-        {"uid": "8438308064", "password": "MimiiII4HTYB9UEF86S6TKL0RRP4FP0"},
-        {"uid": "8438316985", "password": "Mimii55I6NEHDO3ILMS3GPL8HQABPB3"},
-        {"uid": "8438317099", "password": "MimiiD0UD56W9WWPBZY5B4BYP6C4YY5"},
-        {"uid": "8438317184", "password": "MimiiMKHRVQ3HN09K37ADDQLFGR56CA"},
-        {"uid": "8438317172", "password": "Mimii4HCSWQ5GO70ZS7EY0G61TD265Q"},
-        {"uid": "8438317181", "password": "MimiiRIRKFOWO2AIHYCMSZCURDZYXCX"},
-        {"uid": "8438317238", "password": "MimiiD1D5RXBC6FIINSW6UVX0ZCH9G4"},
-        {"uid": "8438317229", "password": "MimiiSBFPZK5QENAY3E2OK5DEFMZVD8"},
-        {"uid": "8438317110", "password": "MimiiQM39KT9718F1NXAX371OXNCUSF"},
-        {"uid": "8438317270", "password": "MimiiE29RYJJQC8OEAYNACDLRG0TKOX"},
-        {"uid": "8438317498", "password": "MimiiNDVAZEHGWJSD3FKSROALD3YA25"},
-        {"uid": "8438321107", "password": "Mimii10YA60JX7N8A8CP8E2M976O97Q"},
-        {"uid": "8438321168", "password": "MimiiKPF7K78ZY26KYLDCEMOB30WGCV"},
-        {"uid": "8438321158", "password": "MimiiC8EG3GPTTV8ZCLKTSUETHFBBX6"},
-        {"uid": "8438321312", "password": "MimiiS6LBC2VTS86GIT3UP2IMN7TIB4"},
-        {"uid": "8438321276", "password": "MimiiSGVNKLJO2D10TG60LVHVTRORSP"},
-        {"uid": "8438321197", "password": "MimiiB0X6ZGUL0KGQO6I1YUYGVLRU9X"},
-        {"uid": "8438321232", "password": "Mimii6LL99LAF3K6FE25G654LR8R65M"},
-        {"uid": "8438321198", "password": "MimiiHIAPBL86BY7301HUYFTOV0A4FC"},
-        {"uid": "8438321205", "password": "MimiiX89IVMYBQ7XF3WS1ZYEB0ZUNCR"},
-        {"uid": "8438321296", "password": "Mimii92LL7CYI39LC1Z6QL5K2P8MXFX"},
-        {"uid": "8438323772", "password": "Mimii9RIKEZ276GDELIRZUDRNG0UV68"},
-        {"uid": "8438323922", "password": "MimiiGM46KNR5JUN4U4I0F7F5PFW5R4"},
-        {"uid": "8438323919", "password": "Mimii1MERC9BA3KT71MWT01V0SKYQE8"},
-        {"uid": "8438323869", "password": "MimiiO2WCUZO6J9CKDK4XL4RMB77TMP"},
-        {"uid": "8438323938", "password": "MimiiLCWCXO1AWL98372ZBAPFB6W1GK"},
-        {"uid": "8438323956", "password": "MimiiR8R0RQ0FSI548SKKT1A9C1L9UU"},
-        {"uid": "8438323973", "password": "Mimii55S2KTEUXMBZDMMYZI33FOJEQJ"},
+        {
+            "uid": os.getenv("IND_UID_1", "8450851107"),
+            "password": os.getenv("IND_PASS_1", "Mimii1RUCUP5BUCMC11828793V30HYX"),
+        },
+        {
+            "uid": os.getenv("IND_UID_2", "8450851503"),
+            "password": os.getenv("IND_PASS_2", "MimiiNEA0WQCCSKF0DKAGV8E8GKNR3R"),
+        },
+        {
+            "uid": os.getenv("IND_UID_3", "8450851636"),
+            "password": os.getenv("IND_PASS_3", "MimiiFK81ZD82LRAJL3MU059I3JAVDK"),
+        },
+        {
+            "uid": os.getenv("IND_UID_4", "8450851417"),
+            "password": os.getenv("IND_PASS_4", "Mimii34CI5B2066FUPS8VFMGXEPTE93"),
+        },
+        {
+            "uid": os.getenv("IND_UID_5", "8450851033"),
+            "password": os.getenv("IND_PASS_5", "Mimii5Y4BFFMTQ496VA9GIOOQ2OU99X"),
+        },
+        {
+            "uid": os.getenv("IND_UID_6", "8450850797"),
+            "password": os.getenv("IND_PASS_6", "MimiiXNSZE5RHHGCVNNI39BCFMGAFAZ"),
+        },
+        {
+            "uid": os.getenv("IND_UID_7", "8450851248"),
+            "password": os.getenv("IND_PASS_7", "MimiiPD6XW1ECVWEE356L5R61HOU3DP"),
+        },
+        {
+            "uid": os.getenv("IND_UID_8", "8450851754"),
+            "password": os.getenv("IND_PASS_8", "MimiiJIJOD04008HBRYPCHQGDSL6RGH"),
+        },
+        {
+            "uid": os.getenv("IND_UID_9", "8450850966"),
+            "password": os.getenv("IND_PASS_9", "MimiiBNT2ZHYTZ26H4SPSLO83CY6JL4"),
+        },
+        {
+            "uid": os.getenv("IND_UID_10", "8450851581"),
+            "password": os.getenv("IND_PASS_10", "MimiiM5B5C0OR3DF4N4HQ8B2S42WCDL"),
+        },
+        {
+            "uid": os.getenv("IND_UID_11", "8450856081"),
+            "password": os.getenv("IND_PASS_11", "MimiiQ1A32XG2FGUA0L8EGMDMERWGMZ"),
+        },
+        {
+            "uid": os.getenv("IND_UID_12", "8450856383"),
+            "password": os.getenv("IND_PASS_12", "MimiiLXFDQ8K1JJGFS3XFVNZT4ELKFA"),
+        },
+        {
+            "uid": os.getenv("IND_UID_13", "8450856631"),
+            "password": os.getenv("IND_PASS_13", "MimiiNXHEZTX578GWXCIALQRLQKCZJW"),
+        },
+        {
+            "uid": os.getenv("IND_UID_14", "8450856484"),
+            "password": os.getenv("IND_PASS_14", "MimiiWMN90MB8N8LUNH2Q9QL9DM5BE0"),
+        },
+        {
+            "uid": os.getenv("IND_UID_15", "8450856852"),
+            "password": os.getenv("IND_PASS_15", "MimiiJ3P38XX2OMCO96RE13ZN6A05NB"),
+        },
+        {
+            "uid": os.getenv("IND_UID_16", "8450856733"),
+            "password": os.getenv("IND_PASS_16", "Mimii6NLN8HOD780C7WXZQSUBO3JPKS"),
+        },
+        {
+            "uid": os.getenv("IND_UID_17", "8450856903"),
+            "password": os.getenv("IND_PASS_17", "MimiiR7CYDNK21US4S14RMECMRCFDHP"),
+        },
+        {
+            "uid": os.getenv("IND_UID_18", "8450856894"),
+            "password": os.getenv("IND_PASS_18", "MimiiISWXUCP3TSV73ORVE97F6BEP5G"),
+        },
+        {
+            "uid": os.getenv("IND_UID_19", "8450856908"),
+            "password": os.getenv("IND_PASS_19", "Mimii1HI04IKFDQUXCD512UAW6X47SZ"),
+        },
+        {
+            "uid": os.getenv("IND_UID_20", "8450856938"),
+            "password": os.getenv("IND_PASS_20", "MimiiX4G8VKKQHQR4D5M5W790D2PFVS"),
+        },
+        {
+            "uid": os.getenv("IND_UID_21", "8450861953"),
+            "password": os.getenv("IND_PASS_21", "Mimii0AI7R0KTKQVHCENCGA5YO21JNT"),
+        },
+        {
+            "uid": os.getenv("IND_UID_22", "8450862028"),
+            "password": os.getenv("IND_PASS_22", "Mimii9VRN5EY7AMWVE786801I0RLLVY"),
+        },
+        {
+            "uid": os.getenv("IND_UID_23", "8450862064"),
+            "password": os.getenv("IND_PASS_23", "Mimii3Z6D5B88F33K52FILBXMFK8OBU"),
+        },
+        {
+            "uid": os.getenv("IND_UID_24", "8450862156"),
+            "password": os.getenv("IND_PASS_24", "MimiiYML6QVAO3FCAPR0NMBA5FGT200"),
+        },
+        {
+            "uid": os.getenv("IND_UID_25", "8450862405"),
+            "password": os.getenv("IND_PASS_25", "MimiiGQRTFUQ84GUZWFOQRLE3DMTYRG"),
+        },
+        {
+            "uid": os.getenv("IND_UID_26", "8450862501"),
+            "password": os.getenv("IND_PASS_26", "Mimii4346Z5X3QWMFOXIFXEEBWVL4ET"),
+        },
+        {
+            "uid": os.getenv("IND_UID_27", "8450863202"),
+            "password": os.getenv("IND_PASS_27", "MimiiSGYI30HE3Y4SNK065BFECMPK68"),
+        },
+        {
+            "uid": os.getenv("IND_UID_28", "8450862755"),
+            "password": os.getenv("IND_PASS_28", "Mimii3WMDYGUW39SJO6B1NJ36HURPGF"),
+        },
+        {
+            "uid": os.getenv("IND_UID_29", "8450862813"),
+            "password": os.getenv("IND_PASS_29", "Mimii16U2HLOPESOQJACQYVX9ZNY2T1"),
+        },
+        {
+            "uid": os.getenv("IND_UID_30", "8450863217"),
+            "password": os.getenv("IND_PASS_30", "MimiiS217LBD08WEIM7AZ2LFS2Q757J"),
+        },
+        {
+            "uid": os.getenv("IND_UID_31", "8450868470"),
+            "password": os.getenv("IND_PASS_31", "MimiiHS8IV2K3RZ8NHGRN0WQD4VCQCD"),
+        },
+        {
+            "uid": os.getenv("IND_UID_32", "8450868576"),
+            "password": os.getenv("IND_PASS_32", "MimiiVD11ZGKKCMVYHDH6440RU8G7C9"),
+        },
+        {
+            "uid": os.getenv("IND_UID_33", "8450868702"),
+            "password": os.getenv("IND_PASS_33", "MimiiWVN1SNUFZV5UXCYIEV0YUJ6QC6"),
+        },
+        {
+            "uid": os.getenv("IND_UID_34", "8450868756"),
+            "password": os.getenv("IND_PASS_34", "MimiiC4HQ4NE8B16XRO5UNWM7BLD2KH"),
+        },
+        {
+            "uid": os.getenv("IND_UID_35", "8450868829"),
+            "password": os.getenv("IND_PASS_35", "MimiiD3YUCLN46B8LBQCK4XHR9NCXCG"),
+        },
+        {
+            "uid": os.getenv("IND_UID_36", "8450869080"),
+            "password": os.getenv("IND_PASS_36", "MimiiZHF8ZL8TZSWYCC3TYBSV3R8FFM"),
+        },
+        {
+            "uid": os.getenv("IND_UID_37", "8450869460"),
+            "password": os.getenv("IND_PASS_37", "MimiiCNB1PLVOCUZJC9K7506DXI9T2T"),
+        },
+        {
+            "uid": os.getenv("IND_UID_38", "8450869583"),
+            "password": os.getenv("IND_PASS_38", "MimiiE07IHMNNVPSGHEOP6YY4AW5HH4"),
+        },
+        {
+            "uid": os.getenv("IND_UID_39", "8450869506"),
+            "password": os.getenv("IND_PASS_39", "Mimii72OREN0DRG1BVPIFFJQGW3LJFX"),
+        },
+        {
+            "uid": os.getenv("IND_UID_40", "8450875650"),
+            "password": os.getenv("IND_PASS_40", "MimiiJ7J4GE1ZL96S82D1G908577BFP"),
+        },
+        {
+            "uid": os.getenv("IND_UID_41", "8450876033"),
+            "password": os.getenv("IND_PASS_41", "Mimii6CC0SWSNTZGU89VZAYJ1JKHMQY"),
+        },
+        {
+            "uid": os.getenv("IND_UID_42", "8450876122"),
+            "password": os.getenv("IND_PASS_42", "MimiiE3LTTOI2YA3T4JNQ8M9JSP7GN2"),
+        },
+        {
+            "uid": os.getenv("IND_UID_43", "8450876216"),
+            "password": os.getenv("IND_PASS_43", "Mimii6A591T1SK8ZL2IPFH7J15TEO57"),
+        },
+        {
+            "uid": os.getenv("IND_UID_44", "8450876202"),
+            "password": os.getenv("IND_PASS_44", "Mimii6FF416SLZ6C1XRZ9N4O7QGY9ZG"),
+        },
+        {
+            "uid": os.getenv("IND_UID_45", "8450876354"),
+            "password": os.getenv("IND_PASS_45", "Mimii7H5H3OP7UBADTR30GS54H673A0"),
+        },
+        {
+            "uid": os.getenv("IND_UID_46", "8450877142"),
+            "password": os.getenv("IND_PASS_46", "Mimii5N9WCO24MNGA9VQWA56QSKBAHZ"),
+        },
     ],
     "OTHARS_SVR": [
         {
@@ -268,7 +340,9 @@ def get_iso_time():
         except Exception:
             pass
     return datetime.now().isoformat()
-    # ============================================================
+
+
+# ============================================================
 # Protobuf -> dict
 # ============================================================
 
@@ -393,7 +467,9 @@ def ensure_jwt_token_sync(region, force_refresh=False):
         jwt_tokens[region] = token
         jwt_expiry[region] = time.time() + JWT_CACHE_SECONDS
         return token
-
+        # ============================================================
+# Part 2: API Endpoints, Encryption & Flask Routes
+# ============================================================
 
 def get_api_endpoint(region):
     endpoints = {
@@ -466,8 +542,8 @@ def apis(encrypted_hex, region):
 def add_metadata(result, start_time):
     if not isinstance(result, dict):
         return result
-    result["Devloper"] = "KHUSHI"
-    result["Telegram"] = "myselfkhushi03"
+    result["Devloper"] = "XEROX_MODS"
+    result["Telegram"] = "SEXTYMODS"
     result["Time_Spne"] = f"{time.time() - start_time:.2f}s"
     result["Time"] = get_formatted_time()
     return result
@@ -522,26 +598,6 @@ def get_player_info():
         return jsonify({"error": str(e)}), 500
 
 
-@app.route("/bot-status", methods=["GET"])
-def bot_status():
-    """Naya endpoint jo bot aur loaded accounts ki live status batayega"""
-    regions_info = {}
-    for region, accounts in REGION_ACCOUNTS.items():
-        regions_info[region] = {
-            "total_loaded_accounts": len(accounts),
-            "token_cached": region in jwt_tokens and time.time() < jwt_expiry.get(region, 0)
-        }
-
-    return jsonify({
-        "status": "online",
-        "service": "Free Fire Player Info API Bot",
-        "developer": "KHUSHI",
-        "telegram": "myselfkhushi03",
-        "regions": regions_info,
-        "time": get_formatted_time()
-    }), 200
-
-
 @app.route("/favicon.ico")
 def favicon():
     return "", 404
@@ -562,4 +618,3 @@ if __name__ == "__main__":
         port=int(os.getenv("PORT", "1080")),
         threaded=True
     )
-    
